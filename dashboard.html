@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Account</h1>
+    <nav>
+      <a href="index.html" id="logout">Logout</a>
+    </nav>
+  </header>
+
+  <section id="dashboard">
+    <h2>Account Dashboard</h2>
+    <div class="balance">
+      <p><strong>Available Balance:</strong></p>
+      <h3>EUR 2,704,090.00</h3>
+    </div>
+    <p><strong>Account Holder:</strong> Kim Taehyung</p>
+    <p><strong>Account Type:</strong> Current Account</p>
+    <p><strong>Account State:</strong> Active</p>
+    <p><strong>Account number:</strong> 90226765</p>
+    <div class="actions">
+    <div class="actions">
+      <button class="send">Send Money</button>
+      <button class="deposit">Make Deposit</button>
+    </div>
+  </section>
+
+  <section id="transactions">
+    <h2>Latest Transactions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2025-09-20</td>
+          <td>Deposit</td>
+          <td>+ €5,000</td>
+          <td class="success">Completed</td>
+        </tr>
+        <tr>
+          <td>2025-09-21</td>
+          <td>ATM Withdrawal</td>
+          <td>- €500</td>
+          <td class="success">Completed</td>
+        </tr>
+        <tr>
+          <td>2025-09-23</td>
+          <td>Transfer to John Doe</td>
+          <td>- €1,200</td>
+          <td class="pending">Pending</td>
+        </tr>
+        <tr>
+          <td>2025-09-25</td>
+          <td>Salary</td>
+          <td>+ €3,200</td>
+          <td class="success">Completed</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+</body>
+</html>
