@@ -303,3 +303,6 @@ nav {
 .btn-link:hover {
   background-color: #005fa3;
 }
+input, select, textarea, button {
+  font-size: 16px; /* Prevents mobile browsers from zooming */
+}
